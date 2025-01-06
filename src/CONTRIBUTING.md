@@ -13,7 +13,7 @@ Before working with this repository locally, you'll need to install the followin
 
 ## Pull Request Process
 
-1. Before anything, [create an issue](https://github.com/anton-rs/newsletters/issues/new) to discuss the change you're
+1. Before anything, [create an issue](https://github.com/op-rs/newsletters/issues/new) to discuss the change you're
    wanting to make, if it is significant or changes functionality. Feel free to skip this step for trivial changes.
 1. Once your change is implemented, ensure that all checks are passing before creating a PR.
 1. Once you have sign-off from a maintainer, you may merge your pull request yourself if you have permissions to do so.
