@@ -7,17 +7,17 @@
 
 <!-- Newsletters -->
 
-[newsletters]: https://anton-rs.github.io/newsletters
-[newsletters-source]: https://github.com/anton-rs/newsletters
-[issues]: https://github.com/anton-rs/newsletters/issues
-[new-issue]: https://github.com/anton-rs/newsletters/issues/new
-[contributing]: https://github.com/anton-rs/newsletters/tree/main/CONTRIBUTING.md
+[newsletters]: https://op-rs.github.io/newsletters
+[newsletters-source]: https://github.com/op-rs/newsletters
+[issues]: https://github.com/op-rs/newsletters/issues
+[new-issue]: https://github.com/op-rs/newsletters/issues/new
+[contributing]: https://github.com/op-rs/newsletters/tree/main/CONTRIBUTING.md
 
 <!-- Kona -->
 
-[kona]: https://github.com/anton-rs/kona
-[kona-derive]: https://github.com/anton-rs/kona/tree/main/crates/derive
-[kona-book]: https://anton-rs.github.io/kona
+[kona]: https://github.com/op-rs/kona
+[kona-derive]: https://github.com/op-rs/kona/tree/main/crates/derive
+[kona-book]: https://op-rs.github.io/kona
 
 <!-- People -->
 

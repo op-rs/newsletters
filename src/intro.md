@@ -1,8 +1,8 @@
-# Alt Stack Team 
+# Alt Stack Team
 
 _Newsletters for the Alt Stack Team._
 
-<a href="https://github.com/anton-rs/newsletters"><img src="https://img.shields.io/badge/GitHub%20Repo-newsletters-green?logo=github"></a>
+<a href="https://github.com/op-rs/newsletters"><img src="https://img.shields.io/badge/GitHub%20Repo-newsletters-green?logo=github"></a>
 
 ## Introduction
 
