@@ -9,7 +9,7 @@
 
 
     <!-- Custom HTML head -->
-    
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
@@ -124,7 +124,7 @@
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor"
@@ -158,7 +158,7 @@
                         <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
-                        <a href="https://github.com/anton-rs/newsletters" title="Git repository" aria-label="Git repository">
+                        <a href="https://github.com/op-rs/newsletters" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
 
@@ -190,15 +190,15 @@
                     <main>
                         <h1 id="alt-stack-team"><a class="header" href="#alt-stack-team">Alt Stack Team</a></h1>
 <p><em>Newsletters for the Alt Stack Team.</em></p>
-<p><a href="https://github.com/anton-rs/newsletters"><img src="https://img.shields.io/badge/GitHub%20Repo-newsletters-green?logo=github"></a></p>
+<p><a href="https://github.com/op-rs/newsletters"><img src="https://img.shields.io/badge/GitHub%20Repo-newsletters-green?logo=github"></a></p>
 <h2 id="introduction"><a class="header" href="#introduction">Introduction</a></h2>
 <p>Newsletters is a collection of public status updates for the <strong>Alt Stack Team</strong>, a team dedicated to an alternative OP Stack at <a href="https://www.oplabs.co/">OP Labs</a> that is primarily built in Rust.</p>
 <p>This book is updated weekly by members of <a href="https://www.oplabs.co/">OP Labs</a> as well as open source contributors.</p>
 <h2 id="provenance"><a class="header" href="#provenance">Provenance</a></h2>
-<p>This book inherits the <a href="https://github.com/casperstorm/ferra">ferra</a> theme from <a href="https://anton-rs.github.io/kona">kona's book</a>.</p>
+<p>This book inherits the <a href="https://github.com/casperstorm/ferra">ferra</a> theme from <a href="https://op-rs.github.io/kona">kona's book</a>.</p>
 <p>It is loosely based on format of the <a href="https://rust-lang.github.io/rfcs/">Rust RFC book</a>, with a flat page composition. All updates are listed in the left-hand side Navbar.</p>
 <h2 id="contributing"><a class="header" href="#contributing">Contributing</a></h2>
-<p>Contributors are welcome! Please see the <a href="https://github.com/anton-rs/newsletters/tree/main/CONTRIBUTING.md">contributing guide</a> for more information.</p>
+<p>Contributors are welcome! Please see the <a href="https://github.com/op-rs/newsletters/tree/main/CONTRIBUTING.md">contributing guide</a> for more information.</p>
 <!-- Misc External -->
 <!-- Newsletters -->
 <!-- Kona -->
@@ -206,17 +206,17 @@
 <!-- Teams -->
 <div style="break-before: page; page-break-before: always;"></div><h1 id="week-0"><a class="header" href="#week-0">Week 0</a></h1>
 <p><em>Publish Date: September 27, 2024</em></p>
-<p><em><a href="https://github.com/anton-rs/newsletters">Newsletters Source</a></em></p>
+<p><em><a href="https://github.com/op-rs/newsletters">Newsletters Source</a></em></p>
 <h2 id="overview"><a class="header" href="#overview">Overview</a></h2>
 <p>This Newsletter is ported over from the Kona project, and is the first
 newsletter for the <em>Alt Stack Team</em>, a team dedicated to the Rust OP Stack
 at <a href="https://www.oplabs.co/">OP Labs</a>.</p>
 <h2 id="updates"><a class="header" href="#updates">Updates</a></h2>
-<p>The implementation of the Holocene hardfork is in full-swing, and <a href="https://github.com/refcell">@refcell</a> is well into Holocene in <a href="https://github.com/anton-rs/kona/tree/main/crates/derive"><code>kona-derive</code></a>! For a working document of the fork implementation progress, see https://github.com/anton-rs/kona/issues/556.</p>
-<p>Kona also received a docs refresh courtesy of <a href="https://github.com/clabby">@clabby</a> over at <a href="https://anton-rs.github.io/kona">anton-rs.github.io/kona</a>. We’d love some feedback, specifically on the SDK section!</p>
+<p>The implementation of the Holocene hardfork is in full-swing, and <a href="https://github.com/refcell">@refcell</a> is well into Holocene in <a href="https://github.com/op-rs/kona/tree/main/crates/derive"><code>kona-derive</code></a>! For a working document of the fork implementation progress, see https://github.com/op-rs/kona/issues/556.</p>
+<p>Kona also received a docs refresh courtesy of <a href="https://github.com/clabby">@clabby</a> over at <a href="https://op-rs.github.io/kona">op-rs.github.io/kona</a>. We’d love some feedback, specifically on the SDK section!</p>
 <img src="./assets/docs-refresh.png" width="80%">
 <h2 id="blockers"><a class="header" href="#blockers">Blockers</a></h2>
-<p>We are blocked on completing the execution layer changes within <a href="https://github.com/anton-rs/kona"><code>kona</code></a> with the <a href="https://github.com/bluealloy/revm"><code>revm</code></a> changes pending. Currently Cody Wang from Coinbase is owning these, and we’ve reached out to see how we can help to keep progress moving.</p>
+<p>We are blocked on completing the execution layer changes within <a href="https://github.com/op-rs/kona"><code>kona</code></a> with the <a href="https://github.com/bluealloy/revm"><code>revm</code></a> changes pending. Currently Cody Wang from Coinbase is owning these, and we’ve reached out to see how we can help to keep progress moving.</p>
 <p>We are also blocked on implementing action tests upstream in <a href="https://github.com/ethereum-optimism/optimism/tree/develop/op-e2e"><code>op-e2e</code></a> until the upstream implementation has been completed. However, ours is not complete either, so this will manifest in a week or two.</p>
 <h2 id="projects"><a class="header" href="#projects">Projects</a></h2>
 <h3 id="kona"><a class="header" href="#kona">Kona</a></h3>
@@ -269,7 +269,7 @@ at <a href="https://www.oplabs.co/">OP Labs</a>.</p>
 <ul>
 <li><code>P0</code> - Complete Holocene work.
 <ul>
-<li><a href="https://github.com/anton-rs/kona/issues/556">Tracker</a></li>
+<li><a href="https://github.com/op-rs/kona/issues/556">Tracker</a></li>
 <li>Action tests</li>
 </ul>
 </li>
@@ -287,7 +287,7 @@ at <a href="https://www.oplabs.co/">OP Labs</a>.</p>
 <!-- Teams -->
 <div style="break-before: page; page-break-before: always;"></div><h1 id="week-1"><a class="header" href="#week-1">Week 1</a></h1>
 <p><em>Publish Date: October 4, 2024</em></p>
-<p><em><a href="https://github.com/anton-rs/newsletters">Newsletters Source</a></em></p>
+<p><em><a href="https://github.com/op-rs/newsletters">Newsletters Source</a></em></p>
 <h2 id="overview-1"><a class="header" href="#overview-1">Overview</a></h2>
 <p>This is the first newsletter for the <strong>Alt Stack Team</strong> - a new team
 at <a href="https://www.oplabs.co/">OP Labs</a> dedicated to building and maintaing alternative
@@ -308,12 +308,12 @@ implementations of the OP Stack.</p>
 <p>or just ship a bunch of prs into the above projects, and we might just
 reach out to you!</p>
 <h2 id="updates-1"><a class="header" href="#updates-1">Updates</a></h2>
-<p>Holocene Hardfork changes are code-complete in <a href="https://github.com/anton-rs/kona">kona</a> 🎉.</p>
+<p>Holocene Hardfork changes are code-complete in <a href="https://github.com/op-rs/kona">kona</a> 🎉.</p>
 <p>To unblock ourselves on implementing action tests without the <code>op-node</code>'s
 derivation pipeline being feature complete with Holocene by configuring
 <a href="https://github.com/ethereum-optimism/optimism/tree/develop/op-e2e"><code>op-e2e</code></a> to skip Holocene action tests if the environment variable
 is set to run <code>op-program</code>, allowing action tests to run if <code>kona</code> is set.
-This allows us to ship Holocene action tests that run against <a href="https://github.com/anton-rs/kona">kona</a>, allowing
+This allows us to ship Holocene action tests that run against <a href="https://github.com/op-rs/kona">kona</a>, allowing
 the <code>op-node</code> folks to activate when feature complete.</p>
 <h2 id="projects-1"><a class="header" href="#projects-1">Projects</a></h2>
 <h3 id="op-reth"><a class="header" href="#op-reth">op-reth</a></h3>
@@ -393,7 +393,7 @@ project is to test and ship Kona + Asterisc to Sepolia and Mainnet.</p>
 <!-- Teams -->
 <div style="break-before: page; page-break-before: always;"></div><h1 id="week-2"><a class="header" href="#week-2">Week 2</a></h1>
 <p><em>Publish Date: October 11, 2024</em></p>
-<p><em><a href="https://github.com/anton-rs/newsletters">Newsletters Source</a></em></p>
+<p><em><a href="https://github.com/op-rs/newsletters">Newsletters Source</a></em></p>
 <h2 id="alt-stack-team-1"><a class="header" href="#alt-stack-team-1">Alt Stack Team</a></h2>
 <p>The current project list includes:</p>
 <ul>
@@ -510,7 +510,7 @@ discuss the change you wish to make via issue.</p>
 </ul>
 <h2 id="pull-request-process"><a class="header" href="#pull-request-process">Pull Request Process</a></h2>
 <ol>
-<li>Before anything, <a href="https://github.com/anton-rs/newsletters/issues/new">create an issue</a> to discuss the change you're
+<li>Before anything, <a href="https://github.com/op-rs/newsletters/issues/new">create an issue</a> to discuss the change you're
 wanting to make, if it is significant or changes functionality. Feel free to skip this step for trivial changes.</li>
 <li>Once your change is implemented, ensure that all checks are passing before creating a PR.</li>
 <li>Once you have sign-off from a maintainer, you may merge your pull request yourself if you have permissions to do so.
